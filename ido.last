@@ -1,0 +1,44 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/graysoncarroll/clojure/" . "malachite-migrations/")
+ ("/Users/graysoncarroll/.emacs.d/elpa/" . "flx-ido-20140821.2033/")
+ ("/Users/graysoncarroll/" . ".emacs.d/")
+ ("/Users/graysoncarroll/.emacs.d/" . "elpa/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/graysoncarroll/.emacs.d/customizations/"
+ "/Users/graysoncarroll/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "navigation.el"
+ "init.el"
+ "ui.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/graysoncarroll/.emacs.d/customizations/" (21695 61475 0 0) "ui.el" "themes.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("/Users/graysoncarroll/.emacs.d/" (21695 61483 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/graysoncarroll/" (21695 61538 0 0) "Vj 2/" "VJ/" "verifi-builds/" "typescript" "tmp/" "scripts/" "scala/" "ruby/" "rsve/" "Quartz/" "python/" "Public/" "poliana_app/" "playground/" "Pictures/" "php/" "notes to self/" "node_modules/" "nltk_data/" "Music/" "Movies/" "mac/" "Library/" "lango_production.pem" "julia/" "js/" "java/" "html/" "get-pip.py" "eclipse/" "Dropbox/" "Downloads/" "Documents/" "devtools/" "Desktop/" "db/" "datasci/" "datafi/" "data/" "D3-Stacked-Donut-Charts/" "cpp/" "clojure/" "certs/" "Books/" "Applications/" "AndroidstudioProjects/" "android/" "anaconda/" ".zshrc" ".zsh_history" ".zsh-update" ".zprofile.pysave" ".zprofile" ".zcompdump-gtc-5.0.5" ".zcompdump-gtc-5.0.2" ".zcompdump-Grayson’s MacBook Pro-5.0.2" ".zcompdump-Grayson’s MacBook Pro-4.3.11" ".zcompdump" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".todomanager/" ".thumbnails/" ".swp" ".swo" ".subversion/" ".ssh/" ".smex-items" ".scdl.cfg" ".sbt/" ".rvm/" ".rnd" ".Rapp.history" ".qgis2/" ".python_history" ".python-eggs/" ".psql_history" ".pry_history" ".plugman/" ".pip/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".netrc" ".mysql_history" ".mongorc.js" ".matplotlib/" ".marks/" ".m2/" ".localpython/" ".local/" ".live-packs/" ".lighttable/" ".lesshst" ".lein/" ".julia_history" ".julia/" ".ivy2/" ".irb-history" ".ipython/" ".ionic/" ".IdeaIC14/" ".idea-build/" ".httpie/" ".hivehistory" ".heroku/" ".guard_history" ".gradle/" ".gitconfig" ".gem/" ".gapdebug/" ".embedmongo/" ".emacs.d/" ".eclipse/" ".ec2/" ".DS_Store" ".dropbox/" ".distlib/" ".deliverycenter.system" ".deliverycenter.installs" ".dbshell" ".cups/" ".cordova/" ".continuum/" ".config/" ".composer/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bosonx/" ".bashrc" ".bash_profile-anaconda.bak" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
+
+ ("/Users/graysoncarroll/clojure/malachite-migrations/" (21695 18750 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "pom.xml" "migrations/" "LICENSE" "doc/" ".lein-repl-history" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/graysoncarroll/clojure/" (21677 48416 0 0) "xors.clj" "wave-api/" "string-calculator/" "shouter/" "povflow/" "malachite-migrations/" "malachite-api-old/" "hello-quil/" "emacs-noob/" "clojure-koans/" ".DS_Store" "../" "./")
+
+ ("/Users/graysoncarroll/.emacs.d/elpa/flx-ido-20140821.2033/" (21695 60676 0 0) "flx-ido.elc" "flx-ido.el" "flx-ido-pkg.elc" "flx-ido-pkg.el" "flx-ido-autoloads.el" "../" "./")
+
+ ("/Users/graysoncarroll/.emacs.d/elpa/" (21695 60675 0 0) "undo-tree-20140509.522/" "tagedit-20140618.521/" "solarized-theme-20150111.1031/" "smex-20140425.1314/" "s-20140714.707/" "rainbow-delimiters-20140713.1131/" "queue-0.1.1/" "projectile-20140716.416/" "pkg-info-20140610.630/" "paredit-20140128.1248/" "magit-20140720.358/" "ido-ubiquitous-20140526.1306/" "goto-last-change-20150109.1023/" "goto-chg-20131228.1459/" "git-rebase-mode-20140605.520/" "git-commit-mode-20140605.520/" "flx-ido-20140821.2033/" "flx-20140921.739/" "exec-path-from-shell-20141212.846/" "evil-readme.txt" "evil-20150105.2348/" "epl-20140620.218/" "dash-20140717.547/" "color-theme-cobalt-0.0.2/" "color-theme-20080305.34/" "colemak-evil-readme.txt" "clojure-mode-extra-font-locking-20140613.839/" "clojure-mode-20141120.1410/" "cl-lib-0.5/" "cider-readme.txt" "cider-20141120.1746/" "archives/" "../" "./")
+
+ ("/Users/" (21575 52243 0 0) "Shared/" "Guest/" "graysoncarroll/" "Deleted Users/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
