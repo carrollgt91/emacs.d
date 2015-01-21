@@ -100,8 +100,6 @@
 ;; a .yml file
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
-;; Add cobalt color theme
-(load-theme 'solarized-dark)
 ;;;;
 ;; Customization
 ;;;;
@@ -225,5 +223,9 @@
 (ido-everywhere 1)
 (flx-ido-mode 1)
 ;; disable ido faces to see flx highlights.
-(setq ido-enable-flex-matching t)
 (setq ido-use-faces nil)
+;; enables git gutter
+(require 'git-gutter)
+
+(global-git-gutter-mode +1)
+(git-gutter:linum-setup)

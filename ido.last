@@ -2,32 +2,51 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/graysoncarroll/clojure/malachite-migrations/" . "src/")
+ ("/Users/graysoncarroll/clojure/malachite-migrations/src/" . "malachite_migrations/")
+ ("/Users/graysoncarroll/clojure/wave-api/src/malachite/" . "api/")
+ ("/Users/graysoncarroll/clojure/wave-api/src/" . "malachite/")
  ("/Users/graysoncarroll/clojure/" . "malachite-migrations/")
  ("/Users/graysoncarroll/.emacs.d/elpa/" . "flx-ido-20140821.2033/")
- ("/Users/graysoncarroll/" . ".emacs.d/")
- ("/Users/graysoncarroll/.emacs.d/" . "elpa/")
+ ("/Users/graysoncarroll/" . "clojure/")
+ ("/Users/graysoncarroll/.emacs.d/" . "customizations/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/graysoncarroll/clojure/malachite-migrations/src/malachite_migrations/"
  "/Users/graysoncarroll/.emacs.d/customizations/"
+ "/Users/graysoncarroll/clojure/wave-api/src/malachite/api/"
  "/Users/graysoncarroll/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "core.clj"
+ "ui.el"
  "navigation.el"
  "init.el"
- "ui.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/graysoncarroll/.emacs.d/customizations/" (21695 61475 0 0) "ui.el" "themes.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+ ("/Users/graysoncarroll/.emacs.d/" (21696 4935 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" "../" "./")
 
- ("/Users/graysoncarroll/.emacs.d/" (21695 61483 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "elpa/" "customizations/" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" "../" "./")
+ ("/Users/graysoncarroll/" (21696 4640 0 0) "Vj 2/" "VJ/" "verifi-builds/" "typescript" "tmp/" "scripts/" "scala/" "ruby/" "rsve/" "Quartz/" "python/" "Public/" "poliana_app/" "playground/" "Pictures/" "php/" "notes to self/" "node_modules/" "nltk_data/" "Music/" "Movies/" "mac/" "Library/" "lango_production.pem" "julia/" "js/" "java/" "html/" "get-pip.py" "eclipse/" "Dropbox/" "Downloads/" "Documents/" "devtools/" "Desktop/" "db/" "datasci/" "datafi/" "data/" "D3-Stacked-Donut-Charts/" "cpp/" "clojure/" "certs/" "Books/" "Applications/" "AndroidstudioProjects/" "android/" "anaconda/" ".zshrc" ".zsh_history" ".zsh-update" ".zprofile.pysave" ".zprofile" ".zcompdump-gtc-5.0.5" ".zcompdump-gtc-5.0.2" ".zcompdump-Grayson’s MacBook Pro-5.0.2" ".zcompdump-Grayson’s MacBook Pro-4.3.11" ".zcompdump" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".todomanager/" ".thumbnails/" ".swp" ".swo" ".subversion/" ".ssh/" ".smex-items" ".scdl.cfg" ".sbt/" ".rvm/" ".rnd" ".Rapp.history" ".qgis2/" ".python_history" ".python-eggs/" ".psql_history" ".pry_history" ".plugman/" ".pip/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".netrc" ".mysql_history" ".mongorc.js" ".matplotlib/" ".marks/" ".m2/" ".localpython/" ".local/" ".live-packs/" ".lighttable/" ".lesshst" ".lein/" ".julia_history" ".julia/" ".ivy2/" ".irb-history" ".ipython/" ".ionic/" ".IdeaIC14/" ".idea-build/" ".httpie/" ".hivehistory" ".heroku/" ".guard_history" ".gradle/" ".gitconfig" ".gem/" ".gapdebug/" ".embedmongo/" ".emacs.d/" ".eclipse/" ".ec2/" ".DS_Store" ".dropbox/" ".distlib/" ".deliverycenter.system" ".deliverycenter.installs" ".dbshell" ".cups/" ".cordova/" ".continuum/" ".config/" ".composer/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bosonx/" ".bashrc" ".bash_profile-anaconda.bak" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
 
- ("/Users/graysoncarroll/" (21695 61538 0 0) "Vj 2/" "VJ/" "verifi-builds/" "typescript" "tmp/" "scripts/" "scala/" "ruby/" "rsve/" "Quartz/" "python/" "Public/" "poliana_app/" "playground/" "Pictures/" "php/" "notes to self/" "node_modules/" "nltk_data/" "Music/" "Movies/" "mac/" "Library/" "lango_production.pem" "julia/" "js/" "java/" "html/" "get-pip.py" "eclipse/" "Dropbox/" "Downloads/" "Documents/" "devtools/" "Desktop/" "db/" "datasci/" "datafi/" "data/" "D3-Stacked-Donut-Charts/" "cpp/" "clojure/" "certs/" "Books/" "Applications/" "AndroidstudioProjects/" "android/" "anaconda/" ".zshrc" ".zsh_history" ".zsh-update" ".zprofile.pysave" ".zprofile" ".zcompdump-gtc-5.0.5" ".zcompdump-gtc-5.0.2" ".zcompdump-Grayson’s MacBook Pro-5.0.2" ".zcompdump-Grayson’s MacBook Pro-4.3.11" ".zcompdump" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".todomanager/" ".thumbnails/" ".swp" ".swo" ".subversion/" ".ssh/" ".smex-items" ".scdl.cfg" ".sbt/" ".rvm/" ".rnd" ".Rapp.history" ".qgis2/" ".python_history" ".python-eggs/" ".psql_history" ".pry_history" ".plugman/" ".pip/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".netrc" ".mysql_history" ".mongorc.js" ".matplotlib/" ".marks/" ".m2/" ".localpython/" ".local/" ".live-packs/" ".lighttable/" ".lesshst" ".lein/" ".julia_history" ".julia/" ".ivy2/" ".irb-history" ".ipython/" ".ionic/" ".IdeaIC14/" ".idea-build/" ".httpie/" ".hivehistory" ".heroku/" ".guard_history" ".gradle/" ".gitconfig" ".gem/" ".gapdebug/" ".embedmongo/" ".emacs.d/" ".eclipse/" ".ec2/" ".DS_Store" ".dropbox/" ".distlib/" ".deliverycenter.system" ".deliverycenter.installs" ".dbshell" ".cups/" ".cordova/" ".continuum/" ".config/" ".composer/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bosonx/" ".bashrc" ".bash_profile-anaconda.bak" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
+ ("/Users/graysoncarroll/clojure/malachite-migrations/src/malachite_migrations/" (21694 35269 0 0) "macros.clj" "files.clj" "db.clj" "core.clj" "../" "./")
+
+ ("/Users/graysoncarroll/clojure/malachite-migrations/src/" (21677 48416 0 0) "malachite_migrations/" "../" "./")
+
+ ("/Users/graysoncarroll/clojure/wave-api/src/malachite/api/" (21614 8535 0 0) "user/" "track/" "soundcloud/" "playlist/" "core.clj" ".DS_Store" "../" "./")
+
+ ("/Users/graysoncarroll/clojure/wave-api/src/malachite/" (21585 28152 0 0) "api/" ".DS_Store" "../" "./")
+
+ ("/Users/graysoncarroll/.emacs.d/customizations/" (21696 3278 0 0) "ui.el" "themes.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "command-key.el" "../" "./")
+
+ ("/Users/graysoncarroll/clojure/wave-api/src/" (21585 28126 0 0) "malachite/" "../" "./")
+
+ ("/Users/graysoncarroll/clojure/wave-api/" (21679 23156 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "Procfile" "LICENSE" "doc/" ".lein-repl-history" ".gitignore" ".git/" "../" "./")
 
  ("/Users/graysoncarroll/clojure/malachite-migrations/" (21695 18750 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "pom.xml" "migrations/" "LICENSE" "doc/" ".lein-repl-history" ".gitignore" ".git/" "../" "./")
 
