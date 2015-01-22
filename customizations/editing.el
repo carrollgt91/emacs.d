@@ -12,6 +12,9 @@
         try-complete-lisp-symbol-partially
         try-complete-lisp-symbol))
 
+(add-hook 'lisp-mode-hook '(lambda ()
+  (local-set-key (kbd "RET") 'newline-and-indent)))
+
 ;; Highlights matching parenthesis
 (show-paren-mode 1)
 

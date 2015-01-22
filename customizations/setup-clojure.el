@@ -35,9 +35,8 @@
 ;; go right to the REPL buffer when it's finished connecting
 (setq cider-repl-pop-to-buffer-on-connect t)
 
-;; When there's a cider error, show its buffer and switch to it
-(setq cider-show-error-buffer t)
-(setq cider-auto-select-error-buffer t)
+;; When there's a cider error, don't show error buffer immediately
+(setq cider-show-error-buffer nil)
 
 ;; Where to store the cider history.
 (setq cider-repl-history-file "~/.emacs.d/cider-history")
@@ -47,6 +46,10 @@
 
 ;; enable paredit in your REPL
 (add-hook 'cider-repl-mode-hook 'paredit-mode)
+
+;; Autoindent on return
+(add-hook 'clojure-mode-hook '(lambda ()
+  (local-set-key (kbd "RET") 'newline-and-indent)))
 
 ;; Use clojure mode for other extensions
 (add-to-list 'auto-mode-alist '("\\.edn$" . clojure-mode))
@@ -65,6 +68,15 @@
     (cider-interactive-eval (format "(println '(def server (%s/start))) (println 'server)" ns))
     (cider-interactive-eval (format "(def server (%s/start)) (println server)" ns))))
 
+;; Adds autocomplete for cider
+(require 'ac-cider)
+(add-hook 'cider-mode-hook 'ac-flyspell-workaround)
+(add-hook 'cider-mode-hook 'ac-cider-setup)
+(add-hook 'cider-repl-mode-hook 'ac-cider-setup)
+(eval-after-load "auto-complete"
+  '(progn
+     (add-to-list 'ac-modes 'cider-mode)
+     (add-to-list 'ac-modes 'cider-repl-mode)))
 
 (defun cider-refresh ()
   (interactive)

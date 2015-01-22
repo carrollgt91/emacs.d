@@ -10,7 +10,8 @@
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
-
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
 ;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 ;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
 ;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
@@ -217,6 +218,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
 ;; Adds better find file support
 (require 'flx-ido)
 (ido-mode 1)
@@ -224,8 +226,12 @@
 (flx-ido-mode 1)
 ;; disable ido faces to see flx highlights.
 (setq ido-use-faces nil)
+
 ;; enables git gutter
 (require 'git-gutter)
 
 (global-git-gutter-mode +1)
 (git-gutter:linum-setup)
+
+;; Adds projectile initialization
+(projectile-global-mode)
